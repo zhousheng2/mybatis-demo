@@ -12,5 +12,6 @@
     <modules>
         <module>mybatis-framework</module>
         <module>mybatis-test</module>
+        <module>mybatis-3-master</module>
     </modules>
 </project>
