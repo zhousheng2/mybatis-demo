@@ -1,0 +1,13 @@
+<mapper namespace="test">
+  <!-- 根据id获取用户信息 -->
+ <!-- <select id="queryUserById" parameterType="java.lang.Integer" resultType="com.mybatis.pojo.User"
+          statementType="prepared">
+    select * from user where id = #{id}
+  </select>-->
+
+  <!-- 根据id获取用户信息 -->
+  <select id="queryUserById" parameterType="com.mybatis.pojo.User" resultType="com.mybatis.pojo.User"
+          statementType="prepared">
+    select * from user where id = #{id}
+  </select>
+</mapper>
